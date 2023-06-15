@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Karla:wght@400;700&display=swap');
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./Components/Images/beautiful-composition-with-palm-leaves-yellow-background.jpg);
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  width: 120px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url(./Components/Images/rm222batch5-kul-18.jpg);
+  background-size: cover;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.add {
+  border-radius: 25px;
+  margin-left: 5px;
+}
+
+.remove {
+  border-radius: 20px;
+  max-width: 63px;
+  padding-right: 100px;
+  margin-left: 8px;
+  
+}
+
+.add:hover {
+  background-color: rgb(74, 74, 219);
+  color: black;
+}
+
+.remove:hover {
+   background-color: rgb(241, 117, 117);
+   color: #fff;
+}
+
+.signup {
+  border-radius: 20px;
+
+}
+
+.head {
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url(./Components/Images/border-from-stationery-technologies-with-coffee.jpg);
+  background-size: cover;
+  font-family: 'DM Serif Text', serif;
+  font-family: 'Karla', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+.todolist {
+  align-items: center;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.login {
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 9px;
+}
+
+.enter {
+  color: black;
+  padding: 5px;
+  width: 100px;
+  background-color: rgb(132, 132, 141);
+  border: none;
+  cursor: pointer;
+ border-radius: 10px;
+ font-family: 'DM Serif Text', serif;
+ font-family: 'Karla', sans-serif;
+ font-weight: bolder;
+}
+
