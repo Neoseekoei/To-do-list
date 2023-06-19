@@ -23,10 +23,16 @@ const Home = () => {
       setTodos(updatedTodos);
     };
 
+    
+
   return (
     <div className='home-container'>
     <h1 className='todolist'>To-Do List</h1>
     <div>
+    <form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search"/>
+     <button type="submit"><i class="fa fa-search"></i></button>
+     </form>
       <input
         type="text"
         value={inputValue}
