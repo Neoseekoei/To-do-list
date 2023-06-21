@@ -3,6 +3,8 @@ import './App.css'
 import Home from "./Components/Home"
 import Login from "./Components/Login"
 import Registration from "./Components/Registration"
+import Search from './Components/Search';
+//import './Search.css';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Route path="home" element={ <Home/> } />
         <Route path="registration" element={ <Registration/> } />
       </Routes>
+      <Search/>
     </div>
   )
 }

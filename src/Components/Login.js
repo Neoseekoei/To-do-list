@@ -9,8 +9,8 @@ const Login = () => {
       <h1>Login</h1>
      
       <form>
-        <input type="text" placeholder='username'/>
-        <input type="password" placeholder='password'/>
+        <input type="text" placeholder='username' id='username' required/>
+        <input type="password" placeholder='password' id='password' required/>
         <button className='login' type='submit'> <Link to="/Home">Login</Link></button>
       </form>
       <Link to="./Registration" className='enter'>--SignUp--</Link>
